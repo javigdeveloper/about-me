@@ -18,6 +18,12 @@ body {
 
 }
 
+header {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
 nav {
     float: right;
 }
@@ -32,4 +38,25 @@ nav li {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 1000;
+}
+
+#p1 {
+    font-size: 60px;
+}
+
+#p2 {
+    font-size: 70px;
+    list-style: none;
+}
+
+#p3 {
+    font-size: 60px;
+}
+
+#p4 {
+    font-size: 70px;
+}
+
+.home {
+    font-size: 80px;
 }
