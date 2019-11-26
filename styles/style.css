@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/img-two.jpg);
+    background-image: url(../images/me\ on\ pc\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,9 +9,9 @@ body {
     height: 200px;
 }
 
-#fullBody {
+#front {
     float: right;
-    height: 250px;
+    height: 240px;
     position: absolute;
     top: 365px;
     right: 5px;
@@ -34,8 +34,8 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 0 30px;
-    font-size: 30px;
+    margin: 50px 30px;
+    font-size: 40px;
     text-transform: uppercase;
     font-weight: 1000;
 }
@@ -45,16 +45,12 @@ nav li {
 }
 
 #p2 {
-    font-size: 70px;
+    font-size: 55px;
     list-style: none;
 }
 
 #p3 {
     font-size: 60px;
-}
-
-#p4 {
-    font-size: 70px;
 }
 
 .home {
