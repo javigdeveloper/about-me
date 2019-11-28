@@ -19,7 +19,16 @@
             </nav>
         </header>
         <main>
+            <div class="hello-message">
+                <p id="js-id"></p>
+            </div>
+            <button id="button" onclick="myFunction()">Say Hi</button>
             <img src="images/me from the front.jpg" alt="me on computer front view" id="front">
         </main>
+        <script>
+            function myFunction() {
+                document.getElementById("js-id").innerHTML = "Hi, this is Javier."
+            }
+        </script>
     </body>
 </html>
