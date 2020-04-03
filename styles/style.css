@@ -5,11 +5,6 @@ body {
     position: relative;
 }
 
-#myFace {
-    float: left;
-    height: 200px;
-}
-
 a {
     color: rgb(255, 255, 255);
 }
@@ -40,18 +35,17 @@ main {
 }
 
 #button {
-    font-size: 50px;
+    font-size: 2em;
     top: 360px;
     left: 880px;
     position: absolute;
     border: solid 5px;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
 }
 
-#front {
-    height: 240px;
-    right: 5px;
-    top: 240px;
-    position: absolute;
+#button:hover {
+  font-size: 2.03em;
+  background-color: rgb(156, 196, 223);
 }
 
 p {

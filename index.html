@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Javier Garcia</title>
-        <link rel="stylesheet" href="styles/style.css">
-    </head>
-    <body>
-        <header>
-            <img src="images/img-one.jpg" alt="myface" id="myFace">
-            <nav>
-                <ul>
-                    <li><a href="my-experience.html">my experience</a></li>
-                    <li><a href="more-about-myself.html">more about myself</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="hello-message">
-                <p id="js-id"></p>
-            </div>
-            <button id="button" onclick="myFunction()">Say Hi</button>
-            <img src="images/me from the front.jpg" alt="me on computer front view" id="front">
-        </main>
-        <script>
-            function myFunction() {
-                document.getElementById("js-id").innerHTML = "Hi, this is Javier."
-            }
-        </script>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javier Garcia</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="my-experience.html">my experience</a></li>
+          <li><a href="more-about-myself.html">more about myself</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hello-message">
+        <p id="js-id"></p>
+      </div>
+      <button id="button" onclick="myFunction()">Say Hi</button>
+    </main>
+    <script>
+      function myFunction() {
+        document.getElementById("js-id").innerHTML = "Hi, this is Javier."
+      }
+    </script>
+  </body>
 </html>
