@@ -11,8 +11,8 @@
     <header>
       <nav>
         <ul>
+          <li><a href="index.html">HOME</a></li>
           <li><a href="my-experience.html">my experience</a></li>
-          <li><a href="more-about-myself.html">more about myself</a></li>
           <li><a href="contact.html">CONTACT</a></li>
         </ul>
       </nav>
@@ -20,12 +20,15 @@
     <main>
       <div class="hello-message">
         <p id="js-id"></p>
+        <p id="js-id2"></p>
       </div>
       <button id="button" onclick="myFunction()">Say Hi</button>
     </main>
     <script>
       function myFunction() {
         document.getElementById("js-id").innerHTML = "Hi, this is Javier."
+        document.getElementById("js-id2").innerHTML = "Contact me so I can have the pleasure of talking to you and help you design a great project."
+        document.getElementById("button").className += "unbutton";
       }
     </script>
   </body>

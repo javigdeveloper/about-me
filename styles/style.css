@@ -1,74 +1,87 @@
 body {
-    background-image: url(../images/me\ on\ pc\ 2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+  background-image: url(../images/me\ on\ pc\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-a {
-    color: rgb(255, 255, 255);
+nav {
+  background-color: black;
+  width: 100vw;
 }
 
-nav ul {
-    list-style: none;
+ul {
+  margin: 0px;
+  padding: 0.7em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 nav li {
-    display: inline-block;
-    margin-top: 50px;
-    margin-right: 30px;
-    margin-left: 30px;
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: 1000;
+  display: inline-block;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 main {
-    position: relative;
-}
-
-.hello-message {
-    position: absolute;
-    font-size: 50px;
-    top: 10px;
-    left: 650px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #button {
-    font-size: 2em;
-    top: 360px;
-    left: 880px;
-    position: absolute;
-    border: solid 5px;
-    box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
+  margin-left: 65vw;
+  margin-top: 20vh;
+  font-size: 2em;
+  font-weight: 700;
+  box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
 }
 
 #button:hover {
   font-size: 2.03em;
-  background-color: rgb(156, 196, 223);
+  background-color: rgb(126, 189, 231);
 }
 
-p {
-    color: rgb(255, 255, 255);
+.unbutton {
+  display: none;
 }
 
-#p1 {
-    font-size: 60px;
+.hello-message {
+  font-size: 50px;
+  margin-left: 50vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
 }
 
-#p2 {
-    font-size: 55px;
-    list-style: none;
+.myexpparag {
+  font-size: 2em;
+  margin: 10vh  2vw  15vh  48vw;
 }
 
-#p3 {
-    font-size: 60px;
+.myexptech {
+  font-size: 2em;
+  margin-left: 48vw;
+  display: flex;
+  max-height: 30vh;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-li {
-    color: rgb(255, 255, 255);
+.myexptech li {
+  width: 10em;
+  list-style-type: none;
 }
 
-.home {
-    font-size: 80px;
+.contact {
+  font-size: 2.5em;
+  margin: 30vh  2vw  15vh  48vw;
 }
