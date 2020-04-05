@@ -1,54 +1,42 @@
-body {
-  background-image: url(../images/me\ on\ pc\ 2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px;
-  padding: 0px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 nav {
   background-color: black;
-  width: 100vw;
 }
 
 ul {
   margin: 0px;
   padding: 0.7em;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 nav li {
   display: inline-block;
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: 900;
+  font-size: 15px;
 }
 
 a {
   color: rgb(255, 255, 255);
-  text-decoration: none;
 }
 
 main {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.codeImg {
+  margin-top: 30px;
+  height: 200px;
+  width: auto;
 }
 
 #button {
-  margin-left: 65vw;
-  margin-top: 20vh;
-  font-size: 2em;
-  font-weight: 700;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 600;
   box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
-}
-
-#button:hover {
-  font-size: 2.03em;
-  background-color: rgb(126, 189, 231);
 }
 
 .unbutton {
@@ -56,32 +44,133 @@ main {
 }
 
 .hello-message {
-  font-size: 50px;
-  margin-left: 50vw;
-  margin-right: 10vw;
-  margin-top: 10vh;
+  margin-top: 20px;
+  font-size: 25px;
+  color: rgb(95, 94, 94);
+  font-weight: bold;
 }
 
 .myexpparag {
-  font-size: 2em;
-  margin: 10vh  2vw  15vh  48vw;
+  margin-top: 20px;
+  font-size: 25px;
+  color: rgb(95, 94, 94);
+  font-weight: bold;
 }
 
 .myexptech {
-  font-size: 2em;
-  margin-left: 48vw;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
   display: flex;
-  max-height: 30vh;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.myexptech li {
-  width: 10em;
+.contact {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   list-style-type: none;
+  margin-top: 90px;
 }
 
-.contact {
-  font-size: 2.5em;
-  margin: 30vh  2vw  15vh  48vw;
+
+@media (min-width: 380px) {
+
+  body {
+    background-image: url(../images/me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  nav {
+    background-color: black;
+    width: 100vw;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0.7em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .codeImg {
+    display: none;
+  }
+
+  #button {
+    margin-left: 65vw;
+    margin-top: 20vh;
+    font-size: 2em;
+    font-weight: 700;
+    box-shadow: 7px 7px rgba(0, 0, 0, 0.2);
+  }
+  
+  #button:hover {
+    font-size: 2.03em;
+    background-color: rgb(126, 189, 231);
+  }
+  
+  .unbutton {
+    display: none;
+  }
+    
+  .hello-message {
+    font-size: 50px;
+    margin-left: 50vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+  }
+
+  .myexpparag {
+    font-size: 2em;
+    margin: 10vh  2vw  15vh  48vw;
+  }
+
+  .myexptech {
+    font-size: 2em;
+    margin-left: 48vw;
+    display: flex;
+    max-height: 30vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .myexptech li {
+    width: 10em;
+    list-style-type: none;
+  }
+
+  .contact {
+    font-size: 2.5em;
+    margin: 30vh  2vw  15vh  48vw;
+  }
+
+  .contact li {
+    list-style-type: none;
+  }
 }
